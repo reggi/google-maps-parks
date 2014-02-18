@@ -42,24 +42,45 @@
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
                      styles: [{
-                        featureType: "all",
+                        featureType: "transit",
                         elementType: "all",
                         stylers: [{
                             visibility: "off"
+                        }]
+                      },{
+                        featureType: "road",
+                        elementType: "all",
+                        stylers: [{
+                            visibility: "off"
+                        }]
+                      },{
+                        featureType: "administrative",
+                        elementType: "all",
+                        stylers: [{
+                            visibility: "off"
+                        }]
+                      },{
+                        featureType: "all",
+                        elementType: "all",
+                        stylers: [{
                             color:"#ffffff"
+                        }]
+                    }, {
+                        featureType: "all",
+                        elementType: "labels",
+                        stylers: [{
+                            visibility: "off"
                         }]
                     }, {
                         featureType: "poi.park",
                         elementType: "geometry.fill",
                         stylers: [{
-                            visibility: "on",
                             color: "#228B22"
                         }]
                     },{
                         featureType: "water",
                         elementType: "geometry.fill",
                         stylers: [{
-                            visibility: "on",
                             color: "#000080"
                         }]
                     }]
